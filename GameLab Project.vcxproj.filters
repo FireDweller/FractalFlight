@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\3DStruct">
+      <UniqueIdentifier>{34eb2007-f6f2-469a-8df3-e437f7d48518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Images">
+      <UniqueIdentifier>{30f9263c-e392-43c5-b674-fc9d548138f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obj">
+      <UniqueIdentifier>{10749233-f559-4acd-8cf5-a24db55b5082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structures">
+      <UniqueIdentifier>{638398f3-9150-42ae-91ee-7ce900299261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TextureHandler">
+      <UniqueIdentifier>{76dd2e5c-5e85-4906-92b1-5fdc32d61575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Octree">
+      <UniqueIdentifier>{578ba185-adba-4de1-bf5a-d116f3179ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\glslfiles">
+      <UniqueIdentifier>{9dae9f96-68c7-4460-8181-73adbd81dc15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Box">
+      <UniqueIdentifier>{b57eeaa2-5a64-457a-aa27-4a1f63c71881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Time">
+      <UniqueIdentifier>{7c4bbf5f-e751-410f-89cf-d170a700f4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Text">
+      <UniqueIdentifier>{fd201740-9c2b-4d00-8b69-bd0e8633f3a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f9f82a2a-47d8-4998-9160-9065b7a9503b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{7b2ed9eb-82da-429b-9cdc-1a163789b0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{fd2a6b93-5450-456c-9ff1-84d023fc0c7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\Octree\Octree.cpp">
+      <Filter>Header Files\Octree</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Box.cpp">
+      <Filter>Header Files\Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\3dStruct\BoundingBox.cpp">
+      <Filter>Header Files\3DStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\3dStruct\threeDModel.cpp">
+      <Filter>Header Files\3DStruct</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Images\imageLoaderPNG.cpp">
+      <Filter>Header Files\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Obj\OBJLoader.cpp">
+      <Filter>Header Files\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Shaders\Shader.cpp">
+      <Filter>Header Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Structures\Vector3d.cpp">
+      <Filter>Header Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Structures\Vector2d.cpp">
+      <Filter>Header Files\Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Text\FreeType.cpp">
+      <Filter>Header Files\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\TextureHandler\TextureHandler.cpp">
+      <Filter>Header Files\TextureHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Time\FPS.cpp">
+      <Filter>Header Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Utilities\IntersectionTests.cpp">
+      <Filter>Header Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\kochSnowflake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\tube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Animation\Md5Model.cpp">
+      <Filter>Header Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Animation\GlErrors.cpp">
+      <Filter>Header Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Animation\Image.cpp">
+      <Filter>Header Files\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Octree\Octree.h">
+      <Filter>Header Files\Octree</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Box.h">
+      <Filter>Header Files\Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\3dStruct\BoundingBox.h">
+      <Filter>Header Files\3DStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\3dStruct\threeDModel.h">
+      <Filter>Header Files\3DStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Images\imageloader.h">
+      <Filter>Header Files\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Images\nvImage.h">
+      <Filter>Header Files\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Obj\OBJLoader.h">
+      <Filter>Header Files\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Shaders\Shader.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structures\Vector2d.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Structures\Vector3d.h">
+      <Filter>Header Files\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Text\FreeType.h">
+      <Filter>Header Files\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TextureHandler\TextureHandler.h">
+      <Filter>Header Files\TextureHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Time\FPS.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Time\Interval.h">
+      <Filter>Header Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utilities\IntersectionTests.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utilities\Lighting.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utilities\MatrixRoutines.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\RedirectIOToConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\tube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\kochSnowflake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Image.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Mathlib.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Md5Model.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\GlErrors.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GLSL_Files\basicTexture.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basicTransformations.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basicTransformations.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basicTransformationsWithDisplacement.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basicTransformationsWithDisplacement.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\displacement.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\displacement.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basic.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basic.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\basicTexture.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\Shader.frag">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+    <None Include="GLSL_Files\Shader.vert">
+      <Filter>Header Files\glslfiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
